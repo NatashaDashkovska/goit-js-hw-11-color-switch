@@ -1,0 +1,24 @@
+.position {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.position > button {
+  width: 135px;
+  height: 55px;
+  background-color: teal;
+  color: azure;
+  font-weight: 700;
+  font-size: large;
+}
+
+.position > button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.disabled {
+  opacity: 50%;
+  cursor: not-allowed;
+}
